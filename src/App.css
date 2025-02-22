@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  width: 100%;
+}
+button {
+  height: 6vh;
+  width: 20vw;
+  margin: 20px;
+  border: 2px solid;
+  border-radius: 5px;
+  font-size: medium;
+}
+.homepage-image {
+  height: calc(100vh - 100px);
+  width: 100%;
+  background-image: url(https://photos5.appleinsider.com/gallery/49380-96622-M2-MacBook-Air-design-xl.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.homepage-button{
+
+}
+
+@media (max-width : 600px) {
+  .homepage-image{
+    width: 600px;
+  }
+}
+ 
